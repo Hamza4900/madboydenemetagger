@@ -138,14 +138,14 @@ async def start(bot: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📚 Komutlar", callback_data="cvv"),
+                    InlineKeyboardButton("❤️‍🔥 Geliştirici", user_id=OWNER_ID),
                 ],
                 [
                     InlineKeyboardButton("🗯 Destek", url=f"https://t.me/YikilmayanChat"),
                     InlineKeyboardButton("➕ Beni Grubuna Ekle", url=f"https://t.me/{app.me.username}?startgroup=a"),
                 ],
-                [
-                    InlineKeyboardButton("❤️‍🔥 Geliştirici", user_id=OWNER_ID),
+                [                                   
+                    InlineKeyboardButton("📚 Komutlar", callback_data="cvv"),
                 ]
             ]
         ),
