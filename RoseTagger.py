@@ -52,10 +52,9 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger(__name__)
 
-API_ID = int(os.environ.get("API_ID", "24054192"))
-API_HASH = os.environ.get("API_HASH", "ed9a8a61a1b4a1ad0915cbe87ba490ed")
-BOT_TOKEN = os.environ.get("TOKEN", "7306038083:AAGLudbkeGZnHp6W7zOU9_ncv6xKomTOJuw")  
-
+API_ID = int(os.environ.get("API_ID", "26696222"))
+API_HASH = os.environ.get("API_HASH", "e603952d4a75d42503fb04b9583fb541")
+BOT_TOKEN = os.environ.get("TOKEN", "7540507755:AAF-S7HEoOm7h_U3Q6Hd50d9KRMGTpjy90A")
 BOT_ID = int(os.environ.get("BOT_ID", "7306038083"))  
 
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "Rose")  
