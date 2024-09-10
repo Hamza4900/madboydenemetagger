@@ -13,10 +13,10 @@ import string
 import time
 import traceback
 from typing import Tuple
-
+from typing import Union
 from random import shuffle
 import aiofiles
-from gtts import gTTS
+
 from typing import List, Tuple, Union
 import requests
 from pymongo import MongoClient
